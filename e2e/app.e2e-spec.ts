@@ -1,10 +1,10 @@
-import { TutorialAngularStylingBootstrapPage } from './app.po';
+import { TutorialAngularCliStylingBootstrapPage } from './app.po';
 
-describe('tutorial-angular-styling-bootstrap App', function() {
-  let page: TutorialAngularStylingBootstrapPage;
+describe('tutorial-angular-cli-styling-bootstrap App', () => {
+  let page: TutorialAngularCliStylingBootstrapPage;
 
   beforeEach(() => {
-    page = new TutorialAngularStylingBootstrapPage();
+    page = new TutorialAngularCliStylingBootstrapPage();
   });
 
   it('should display message saying app works', () => {
